@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 400px;
+        }
+        #div1{
+            background: #ff0000;
+        }
+        #div2{
+            background: #00ff00;
+            position:absolute;
+            top:50px;
+            left:50px;
+        }
+        #div3{
+            background: #ffff00;
+        }
+        #div4{
+            width: 400px;
+            height: 400px;
+            background: #ff0000;
+            position: relative;
+            top:100px;
+            left:100px;
+        }
+        #div5{
+            width: 200px;
+            height: 200px;
+            background: #cccccc;
+            position: absolute;
+            top:50px;
+            left:50px;
+        }
+        #div6{
+            width: 250px;
+            height: 250px;
+            background: #cccccc;
+            position: fixed;
+            right:50px;
+            bottom:50px;            <!--   固定在右下角-->
+        }
+        #div7{
+            height: 50px;
+            background: #fcfc20;
+            position: sticky;
+            margin-top:100px;
+            top: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div id="div1">div1</div>
+<div id="div2">div2</div>
+<div id="div3">div3</div>
+<div id="div4">
+    <div id="div5"></div>
+</div>
+<div id="div6"></div>
+<div id="div7"></div>
+
+</body>
+</html>
