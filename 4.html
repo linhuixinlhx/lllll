@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .start{
-            height: 2000px;
+        body{
+            margin:0;
         }
-    #div7{
-    height: 50px;
-    background: #fcfc20;
-    position: sticky;
-    margin-top:100px;
-    top: 0;
-    }
+        #div1{
+            width: 400px;
+            height: 400px;
+            background: #ff0000;
+            position: relative;
+        }
+        #div2 {
+            width: 200px;
+            height: 200px;
+            background: #00ffff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform :translate(-50% ,-50%);
+        }
+
     </style>
 </head>
 <body>
-<div class="start">
-    <div id="div7"></div>
+<div id="div1">
+    <div id="div2"></div>
 </div>
 
 </body>
