@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        div{
-            width: 200px;
-            height: 400px;
-        }
-        #div1{
+
+           #div1{
+               width: 200px;
+               height: 200px;
             background: #ff0000;
         }
         #div2{
+            width: 200px;
+            height: 200px;
             background: #00ff00;
             position:absolute;
             top:50px;
             left:50px;
         }
         #div3{
+            width: 200px;
+            height: 200px;
             background: #ffff00;
+          
         }
         #div4{
             width: 400px;
@@ -44,17 +48,23 @@
             right:50px;
             bottom:50px;            <!--   固定在右下角-->
         }
+        .spec{
+            height: 1000px;
+        }
         #div7{
-            height: 50px;
+            height: 10px;
             background: #fcfc20;
             position: sticky;
-            margin-top:100px;
-            top: 0;
-        }
+            margin-top:50px;
+            top: 0;}
+
 
     </style>
 </head>
 <body>
+
+<br>
+
 <div id="div1">div1</div>
 <div id="div2">div2</div>
 <div id="div3">div3</div>
@@ -62,7 +72,8 @@
     <div id="div5"></div>
 </div>
 <div id="div6"></div>
+<div class="spec">
 <div id="div7"></div>
-
+</div>
 </body>
 </html>
